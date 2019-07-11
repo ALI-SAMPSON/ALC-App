@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ActivityB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:theme="@style/Theme.AppCompat.Light">
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/work_sans_medium"
+                    android:text="@string/text_my_profile"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="start"
+                    android:textColor="@color/colorWhite"/>
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profile_pic"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="@dimen/button_margin_large"
+            android:layout_gravity="center"/>
+
+        <!-- text view for my username -->
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_normal"
+            android:fontFamily="@font/work_sans_medium"
+            android:layout_marginTop="@dimen/text_margin_normal"
+            android:text="@string/text_username"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:textColor="@color/colorGray"/>
+
+        <!-- view to draw line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_margin="@dimen/view_margin"
+            android:background="@android:color/darker_gray"/>
+
+        <!-- text views for my details -->
+        <TextView
+            android:id="@+id/tv_track"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_normal"
+            android:fontFamily="@font/work_sans_regular"
+            android:layout_marginTop="@dimen/text_margin_normal"
+            android:text="@string/text_username"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/text_margin_normal"
+            android:layout_marginLeft="@dimen/text_margin_normal"
+            android:layout_marginEnd="@dimen/text_margin_normal"
+            android:layout_marginRight="@dimen/text_margin_normal"
+            android:layout_gravity="start"
+            android:textColor="@color/colorGray"/>
+        <TextView
+            android:id="@+id/tv_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_normal"
+            android:fontFamily="@font/work_sans_regular"
+            android:layout_marginTop="@dimen/text_margin_normal"
+            android:text="@string/text_username"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/text_margin_normal"
+            android:layout_marginLeft="@dimen/text_margin_normal"
+            android:layout_marginEnd="@dimen/text_margin_normal"
+            android:layout_marginRight="@dimen/text_margin_normal"
+            android:layout_gravity="start"
+            android:textColor="@color/colorGray"/>
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_normal"
+            android:fontFamily="@font/work_sans_regular"
+            android:layout_marginTop="@dimen/text_margin_normal"
+            android:text="@string/text_username"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/text_margin_normal"
+            android:layout_marginLeft="@dimen/text_margin_normal"
+            android:layout_marginEnd="@dimen/text_margin_normal"
+            android:layout_marginRight="@dimen/text_margin_normal"
+            android:layout_gravity="start"
+            android:textColor="@color/colorGray"/>
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_normal"
+            android:fontFamily="@font/work_sans_regular"
+            android:layout_marginTop="@dimen/text_margin_normal"
+            android:text="@string/text_username"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/text_margin_normal"
+            android:layout_marginLeft="@dimen/text_margin_normal"
+            android:layout_marginEnd="@dimen/text_margin_normal"
+            android:layout_marginRight="@dimen/text_margin_normal"
+            android:layout_gravity="start"
+            android:textColor="@color/colorGray"/>
+
+        <TextView
+            android:id="@+id/tv_slack_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_normal"
+            android:fontFamily="@font/work_sans_regular"
+            android:layout_marginTop="@dimen/text_margin_normal"
+            android:text="@string/text_username"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/text_margin_normal"
+            android:layout_marginStart="@dimen/text_margin_normal"
+            android:layout_marginLeft="@dimen/text_margin_normal"
+            android:layout_marginEnd="@dimen/text_margin_normal"
+            android:layout_marginRight="@dimen/text_margin_normal"
+            android:layout_gravity="start"
+            android:textColor="@color/colorGray"/>
+
+    </LinearLayout>
+
+</ScrollView>

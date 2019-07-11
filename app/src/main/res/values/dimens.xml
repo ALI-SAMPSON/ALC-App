@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin">30dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="button_margin_large">50dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="view_margin">5dp</dimen>
+    <dimen name="text_margin_normal">10dp</dimen>
+</resources>

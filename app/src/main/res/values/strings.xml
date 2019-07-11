@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="text_about_alc">About ALC</string>
+    <string name="text_my_profile">My Profile</string>
+    <string name="welcome_text">Welcome to ALC 4.0</string>
+    <string name="text_username">Ali Sampson</string>
+
+    <string name="text_my_track">Track: Android</string>
+    <string name="text_my_country">Country: Ghana</string>
+    <string name="text_my_email">Email: alisampson2@gmail.com</string>
+    <string name="text_my_phone">Phone Number: 233209062445</string>
+    <string name="text_my_slack_username">Slack Username: @Ali Sampson</string>
+
+
+</resources>
